@@ -3,19 +3,29 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import Nav from '../components/Nav';
+
 import './index.css'
+import 'tachyons/css/tachyons.css';
+
 
 const Header = () => (
   <div
     style={{
-      background: 'black',
+        position: 'absolute',
+        width: '100%',
+        background: 'rgba(10, 0, 0, 0.5)',
       // marginBottom: '1.45rem',
     }}
   >
     <div
       style={{
-        margin: '0 auto',
-        maxWidth: 960,
+          position: 'absolute',
+        background: 'rgba(155, 155, 155, 0.0)',
+          display: 'flex',
+          flexDirection: 'row',
+        // margin: '0 auto',
+        // width: '100%',
         padding: '1.45rem 1.0875rem',
       }}
     >
@@ -23,11 +33,11 @@ const Header = () => (
         <Link
           to="/"
           style={{
-            color: 'white',
+            color: '#be4dee',
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Bright Ideas
         </Link>
       </h1>
     </div>
@@ -37,9 +47,9 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Bright Ideas Digital"
       meta={[
-        { name: 'description', content: 'Sample' },
+        { name: 'description', content: 'Bright Ideas Digital: We Craft Innovative Experiences' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />

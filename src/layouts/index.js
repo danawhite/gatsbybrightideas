@@ -37,7 +37,6 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Bright Ideas
         </Link>
       </h1>
     </div>

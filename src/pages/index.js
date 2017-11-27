@@ -1,30 +1,36 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import 'tachyons/css/tachyons.css';
-
 const IndexPage = () => (
     <div>
         <header className="sans-serif">
-            <div className="cover bg-left bg-center-l" style={{backgroundImage: 'url(http://mrmrs.github.io/photos/u/011.jpg)'}}>
-                <div className="bg-black-80 pb5 pb6-m pb7-l">
+            <div className="cover bg-center-l pb7" style={{backgroundImage: 'url(https://scontent.fphl2-3.fna.fbcdn.net/v/t1.0-9/10401512_10206036145807724_7330657773608183373_n.jpg?oh=488ae667e2986abc43be231678c91d92&oe=5AA760F0)'}}>
+                <div className="flex flex-column items-center bg-animate">
                     <nav className="dt w-100 mw8 center">
-                        <div className="dtc v-mid tr pa3">
-                            <Link className="f6 fw4 hover-dark-blue no-underline light-gray dn dib-ns pv2 ph3" to="/company/">Company</Link>
-                            <Link className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/products/">Products</Link>
-                            <Link className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" to="/thoughts/">Thoughts</Link>
-                            <Link className="f6 fw4 hover-white no-underline white dib ml2 pv2 ph3 ba" to="/">Sign Up</Link>
+                        <div className="dtc w2 v-mid pa3">
+                            <a href="/" className="dib w2 h2 pa1 ba b--white-90 grow-large border-box">
+                            <svg className="link white-90 hover-white" data-icon="skull" viewBox="0 0 32 32"><title>skull icon</title><path d="M16 0 C6 0 2 4 2 14 L2 22 L6 24 L6 30 L26 30 L26 24 L30 22 L30 14 C30 4 26 0 16 0 M9 12 A4.5 4.5 0 0 1 9 21 A4.5 4.5 0 0 1 9 12 M23 12 A4.5 4.5 0 0 1 23 21 A4.5 4.5 0 0 1 23 12"></path></svg>
+                            </a>
+                        </div>
+                        <div className="flex justify-end items-end v-mid tr pt3 pr4">
+                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="white no-underline" to="/">Company</Link></h4>
+                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="dark-gray no-underline" to="#">Products</Link></h4>
+                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="white no-underline" to="/thoughts/">Thoughts</Link></h4>
+                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="white no-underline" to="/thoughts/">Articles</Link></h4>
+                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="dark-gray no-underline" to="#">Screencasts</Link></h4>
                         </div>
                     </nav>
-                    <div className="tc-l mt4 mt5-m mt6-l ph3">
-                        <h1 className="f2 f1-l fw2 white-90 mb0 lh-title">Bright Ideas Digital</h1>
-                        <h2 className="fw1 f3 white-80 mt3 mb4">We craft beautiful experiences</h2>
-                        <a className="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" href="/">Register to receive updates</a>
+                    <div className="inline-flex flex-column mt4 mt5-m mt6-l ph3 items-center">
+                        <h3 className="dib bg-black-80 ttu pa2 f2 f1-l fw7 light-purple mb2 lh-copy" style={{transform: 'skewX(-20deg)', }}>Bright Ideas Digital</h3>
+                        <h6 className="dib bg-black-80 ttu pa3 f5 f-subheadline fw6 light-purple mb3 lh-copy" style={{transform: 'skewX(-20deg)', }}>Crafting beautiful experiences</h6>
+                        <h6 className="dib bg-black-80 ttu pa3 f5 f-subheadline fw8 white mb3 lh-copy" style={{transform: 'skewX(-20deg)', }}>Coming soon</h6>
+                        {/*<a className="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" href="/">Register to receive updates</a>*/}
+                        {/*<h2 className="fw1 f3 white-80 mt3 mb4" style={{transform: 'skewX(20deg)', }}>We craft beautiful experiences</h2>*/}
                     </div>
                 </div>
             </div>
         </header>
-        <footer className="pv4 ph3 ph5-ns tc">
+        <footer className="pt0 pv4 ph2 ph2-ns tc">
             <a className="link dim gray dib h2 w2 br-100 mr3 pa2 bg-near-white ba b--black-10" href="#" title="">
                 <svg data-icon="facebook" viewBox="0 0 32 32" style={{fill:"currentcolor"}}>
                     <title>facebook icon</title>

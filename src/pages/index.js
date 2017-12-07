@@ -1,8 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import './index.css';
+
 const IndexPage = () => (
-    <div>
+    <div className="blurred">
         <header className="w100 sans-serif">
             <div className="cover bg-center pb7" style={{backgroundImage: 'url(https://scontent.fphl2-3.fna.fbcdn.net/v/t1.0-9/10401512_10206036145807724_7330657773608183373_n.jpg?oh=488ae667e2986abc43be231678c91d92&oe=5AA760F0)'}}>
                 <div className="flex flex-column items-center bg-animate">
@@ -16,15 +18,15 @@ const IndexPage = () => (
                         <div className="flex justify-end items-end v-mid tr pt3 pr4">
                             <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="/">Company</Link></h4>
                             <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="#">Products</Link></h4>
-                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="/thoughts/">Thoughts</Link></h4>
-                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="/thoughts/">Articles</Link></h4>
+                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="#">Thoughts</Link></h4>
+                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="#">Articles</Link></h4>
                             <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="#">Screencasts</Link></h4>
                         </div>
                     </nav>
                     <div className="flex-column mt4 mt5-m mt6-l ph3 justify-start items-center">
-                        <h3 className="flex bg-black-80 ttu pa2 f3 f2-ns f1-l fw7 light-purple  lh-copy" style={{transform: 'skewX(-20deg)', }}>Bright Ideas Digital</h3>
-                        <h6 className="flex bg-black-80 ttu pa3 f6 f5-ns f-subheadline fw6 white lh-copy" style={{transform: 'skewX(20deg)', }}>Crafting beautiful experiences</h6>
-                        <h6 className="flex bg-black-80 ttu pa3 f5 f-subheadline fw8 white mb3 lh-copy" style={{transform: 'skewX(-20deg)', }}>Coming soon</h6>
+                        <h3 className="flex tu light-green pa2 f3 f2-ns f1-l fw7 lh-copy saturated">Bright Ideas Digital</h3>
+                        <h6 className="flex bg-black-90 ttu pa3 f6 f5-ns f-5 fw6 white lh-copy justify-end">Crafting beautiful experiences</h6>
+                        {/*<h6 className="flex bg-black-90 ttu pa3 f5 f-subheadline fw8 white mb3 lh-copy" style={{transform: 'skewX(-20deg)', }}>Coming soon</h6>*/}
                     </div>
                 </div>
             </div>

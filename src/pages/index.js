@@ -18,15 +18,15 @@ const IndexPage = () => (
                         <div className="flex justify-end items-end v-mid tr pt3 pr4">
                             <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="/">Company</Link></h4>
                             <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="#">Products</Link></h4>
-                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="#">Thoughts</Link></h4>
-                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="#">Articles</Link></h4>
                             <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="#">Screencasts</Link></h4>
+                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="#">Thoughts</Link></h4>
+                            <h4 className="mr1 tc ttu bg-black-90 lh-copy white pa2 tracked-tight" style={{transform: 'skewX(-20deg)', }}><Link className="gray no-underline" to="#">Media</Link></h4>
                         </div>
                     </nav>
-                    <div className="flex-column mt4 mt5-m mt6-l ph3 justify-start items-center">
-                        <h3 className="flex tu light-green pa2 f3 f2-ns f1-l fw7 lh-copy saturated">Bright Ideas Digital</h3>
-                        <h6 className="flex bg-black-90 ttu pa3 f6 f5-ns f-5 fw6 white lh-copy justify-end">Crafting beautiful experiences</h6>
-                        {/*<h6 className="flex bg-black-90 ttu pa3 f5 f-subheadline fw8 white mb3 lh-copy" style={{transform: 'skewX(-20deg)', }}>Coming soon</h6>*/}
+                    <div className="flex-column mt2 mt2-m mt6-l ph3 justify-start items-center">
+                        <h3 className="flex bg-black-90 ttu pa2 f3 f2-ns f1-l fw7 light-purple  lh-copy">Bright Ideas Digital</h3>
+                        <h6 className="flex bg-black-80 ttu pa3 f6 f5-ns f-5 fw6 white lh-copy justify-center">Crafting beautiful experiences</h6>
+                        <h6 className="flex bg-black-70 ttu pa3 f5 f-subheadline fw8 white mb3 lh-copy justify-center">Coming soon</h6>
                     </div>
                 </div>
             </div>

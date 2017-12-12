@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import './index.css';
 
 const IndexPage = () => (
-    <div className="blurred">
+    <div>
         <header className="w100 sans-serif">
             <div className="cover bg-center pb7" style={{backgroundImage: 'url(https://scontent.fphl2-3.fna.fbcdn.net/v/t1.0-9/10401512_10206036145807724_7330657773608183373_n.jpg?oh=488ae667e2986abc43be231678c91d92&oe=5AA760F0)'}}>
                 <div className="flex flex-column items-center bg-animate">
